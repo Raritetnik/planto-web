@@ -1,0 +1,57 @@
+.banner {
+    display: grid;
+    min-height: 80vh;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    grid-template-columns: 60% 40%;
+}
+
+
+.bannerCart {
+    position: absolute !important;
+    bottom: 0;
+    align-items: start !important;
+    max-width: 500px;
+    left: 0;
+}
+
+.bannerCart::after {
+    border-radius: 85% 0% 0% 0% / 95% 0% 0% 0%  !important;
+}
+
+.bannerCart img {
+    border-radius: 100%;
+}
+
+.bannerText {
+
+}
+
+.sideCard {
+    max-width: 500px;
+}
+
+.bannerText h1{
+    font-size: 119px;
+    font-weight: 600;
+}
+
+.bannerText p {
+    padding: 1rem 0;
+    font-size: 23px;
+}
+
+.main {
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+.stars b{
+    font-size: 24px;
+    color: gold;
+
+}
+.stars {
+    display: flex;
+    gap: 10px;
+}

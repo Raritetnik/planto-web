@@ -1,0 +1,14 @@
+.trendyCard {
+    display: grid !important;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    border-radius: 100px;
+    padding: 4rem 8rem;
+}
+
+.trendyCard::after {
+    border-radius: 100px 0 0 0;
+}
+.trendyCard::before {
+    border-radius: 0 0 100px 0;
+}

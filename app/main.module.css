@@ -1,0 +1,87 @@
+.banner {
+    display: grid;
+    min-height: 80vh;
+    margin: 10rem 0;
+    grid-template-columns: 60% 40%;
+}
+
+.cart {
+    position: relative;
+    border-radius: 50px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(90,90,90, .15);
+
+    backdrop-filter: blur(10px);
+}
+.cart img {
+    z-index: 2;
+}
+
+
+.cart::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 30%;
+    border-radius: 50px 0 0 0;
+
+    border-top: 1px inset white;
+    border-left: 1px inset white;
+}
+
+.cart::before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30%;
+    width: 30%;
+    border-radius: 0 0 50px 0;
+
+    border-bottom: 1px outset white;
+    border-right: 1px inset white;
+}
+
+.bannerCart {
+    position: absolute;
+    bottom: 0;
+    align-items: start;
+    left: 0;
+}
+.bannerCart img {
+    border-radius: 100%;
+}
+
+.bannerText {
+
+}
+
+.bannerText h1{
+    font-size: 119px;
+    font-weight: 600;
+}
+
+.bannerText p {
+    padding: 1rem 0;
+    font-size: 23px;
+}
+
+.main {
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+.stars b{
+    font-size: 24px;
+    color: gold;
+
+}
+.stars {
+    display: flex;
+    gap: 10px;
+}

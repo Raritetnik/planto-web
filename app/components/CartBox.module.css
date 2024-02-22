@@ -1,0 +1,69 @@
+.cart {
+    position: relative;
+    border-radius: 200px 200px 50px 50px / 150px 150px 50px 50px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(90,90,90, .15);
+
+    backdrop-filter: blur(10px);
+}
+.cart img {
+    z-index: 2;
+}
+
+
+.cart::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 50%;
+    border-radius: 170px 0 0 0;
+    z-index: -1;
+
+    border-top: 1px inset white;
+    border-left: 1px inset white;
+}
+
+.cart::before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30%;
+    width: 30%;
+    border-radius: 0 0 50px 0;
+    z-index: -1;
+
+    border-bottom: 1px outset white;
+    border-right: 1px inset white;
+}
+
+.bannerCart {
+    position: absolute;
+    bottom: 0;
+    align-items: start;
+    left: 0;
+}
+
+
+.bannerCart img {
+    border-radius: 100%;
+}
+
+.bannerText {
+
+}
+
+.bannerText h1{
+    font-size: 119px;
+    font-weight: 600;
+}
+
+.bannerText p {
+    padding: 1rem 0;
+    font-size: 23px;
+}
