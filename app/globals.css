@@ -10,7 +10,7 @@ body {
   background-color: var(--bg_color);
   background-image: url("/assets/bg-plant.png");
   background-size: cover;
-  background-position: 0 10%;
+  background-position: center;
   color: white;
 }
 

@@ -1,8 +1,7 @@
 .banner {
     display: grid;
-    min-height: 80vh;
+    min-height: 800px;
     margin-top: 10rem;
-    margin-bottom: 6rem;
     grid-template-columns: 60% 40%;
 }
 
@@ -10,7 +9,6 @@
 .bannerCart {
     position: absolute !important;
     bottom: 0;
-    align-items: start !important;
     max-width: 500px;
     left: 0;
 }
