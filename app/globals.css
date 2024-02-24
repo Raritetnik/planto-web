@@ -5,8 +5,10 @@
 :root {
   --bg_color: #1B2316;
 }
-
 body {
+  background-color: var(--bg_color);
+}
+.allPage {
   background-color: var(--bg_color);
   background-image: url("/assets/bg-plant.png");
   background-size: cover;
